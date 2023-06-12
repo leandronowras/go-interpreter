@@ -1,4 +1,4 @@
-package tokens
+package token
 
 type TokenType string
 
@@ -14,7 +14,7 @@ const (
 	INT       = "INT"
 	ASSIGN    = "="
 	PLUS      = "+"
-	COMMMA    = ","
+	COMMA     = ","
 	SEMICOLON = ";"
 	LPAREN    = "("
 	RPAREN    = ")"
